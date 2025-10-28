@@ -11,7 +11,6 @@ function Header() {
   useEffect(() => {
     const handleResize = () => {
       setscreenwidth(window.innerWidth);
-      console.log(screenwidth);
     };
     window.addEventListener("resize", handleResize);
     window.addEventListener("load", handleResize);
