@@ -62,6 +62,15 @@
   justify-content: center;
   align-items: center;
 }
+.iconsdivstyle {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  position: relative;
+  top: 10px;
+  right: 30px;
+  margin-bottom: 20px;
+}
 
 /* media query for responsive*/
 @media (max-width: 1200px) {
@@ -76,6 +85,9 @@
   }
   .navstyle a {
     border-left: none !important;
+  }
+  .iconsdivstyle {
+    right: 5px;
   }
 }
 @media (max-width: 567px) {

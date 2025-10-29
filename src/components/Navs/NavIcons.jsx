@@ -2,17 +2,7 @@ import React from "react";
 
 function NavIcons() {
   return (
-    <div
-      style={{
-        display: "flex",
-        gap: "20px",
-        alignItems: "center",
-        position: "relative",
-        top: "10px",
-        right: "30px",
-        marginBottom:"20px"
-      }}
-    >
+    <div className="iconsdivstyle">
       <div style={{ position: "relative", cursor: "pointer" }}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
