@@ -14,7 +14,7 @@ function App() {
   const LazyHeader = lazy(() => import("./components/Navs/Header"));
   return (
     <>
-      {/*<Suspense
+      <Suspense
         fallback={
           <Placeholder as="div" animation="glow">
             <Placeholder xs={12} style={{ height: "150px" }} />
@@ -22,9 +22,7 @@ function App() {
         }
       >
         <LazyHeader />
-      </Suspense>*/}
-
-      <Header />
+      </Suspense>
 
       <Routes>
         <Route path="/" element={<Home />} />
