@@ -87,11 +87,14 @@
     border-left: none !important;
   }
   .iconsdivstyle {
-    right: 5px;
+    display: none !important;
   }
 }
 @media (max-width: 567px) {
   .navbar form {
+    display: none !important;
+  }
+  .searchcontainer {
     display: none !important;
   }
 }

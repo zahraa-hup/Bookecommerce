@@ -18,3 +18,12 @@ svg {
   color: var(--txt-color);
   cursor: pointer;
 }
+.navbar{
+  background: var(--main-color) !important;
+}
+@media (min-width: 992px) {
+  .navbar>.container-fluid{
+  flex-direction:row-reverse !important;
+ }
+  }
+ 

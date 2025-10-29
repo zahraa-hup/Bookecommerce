@@ -7,11 +7,14 @@ import Memos from "./components/pages/Memos";
 import Newbooks from "./components/pages/Newbooks";
 import Reviews from "./components/pages/Reviews";
 import Placeholder from "react-bootstrap/Placeholder";
+import Header from "./components/Navs/Header";
+
+import "./styles/Header.css";
 function App() {
   const LazyHeader = lazy(() => import("./components/Navs/Header"));
   return (
     <>
-      <Suspense
+      {/*<Suspense
         fallback={
           <Placeholder as="div" animation="glow">
             <Placeholder xs={12} style={{ height: "150px" }} />
@@ -19,7 +22,9 @@ function App() {
         }
       >
         <LazyHeader />
-      </Suspense>
+      </Suspense>*/}
+
+      <Header />
 
       <Routes>
         <Route path="/" element={<Home />} />
