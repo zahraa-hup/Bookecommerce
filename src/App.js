@@ -1,15 +1,13 @@
 import React, { Suspense, lazy } from "react";
-//import Header from "./components/Navs/Header";
-import { Route, Routes } from "react-router-dom";
-import Home from "./components/pages/Home";
-import Allbbooks from "./components/pages/Allbbooks";
-import Memos from "./components/pages/Memos";
-import Newbooks from "./components/pages/Newbooks";
-import Reviews from "./components/pages/Reviews";
-import Placeholder from "react-bootstrap/Placeholder";
-import Header from "./components/Navs/Header";
 
-import "./styles/Header.css";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Allbbooks from "./pages/Allbbooks";
+import Memos from "./pages/Memos";
+import Newbooks from "./pages/Newbooks";
+import Reviews from "./pages/Reviews";
+import Placeholder from "react-bootstrap/Placeholder";
+
 function App() {
   const LazyHeader = lazy(() => import("./components/Navs/Header"));
   return (
@@ -17,7 +15,7 @@ function App() {
       <Suspense
         fallback={
           <Placeholder as="div" animation="glow">
-            <Placeholder xs={12} style={{ height: "150px" }} />
+            <Placeholder xs={12} className="navloading" />
           </Placeholder>
         }
       >

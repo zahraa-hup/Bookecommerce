@@ -6,24 +6,19 @@ import Searchinput from "./Searchinput";
 import NavIcons from "./NavIcons";
 import { Link } from "react-router-dom";
 
-import "../../styles/Header.css";
+import "./Header.css";
 function Header() {
   return (
     <>
       <Navbar expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#">
+          <Link to={"./"}>
             <img src="/img/logo.png" alt="logo" />
-          </Navbar.Brand>
+          </Link>
           <NavIcons />
           <Searchinput />
           <Navbar.Toggle aria-controls="responsive-navbar-nav">
-            <span
-              class="material-symbols-outlined"
-              style={{ color: "#f5f5f5" }}
-            >
-              sort
-            </span>
+            <span class="material-symbols-outlined">sort</span>
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto my-2 my-lg-0 navstyle">

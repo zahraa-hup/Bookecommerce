@@ -1,6 +1,7 @@
 .navbar {
   color: var(--txt-color);
   background: var(--main-color) !important;
+  overflow: hidden;
 }
 .navbar-collapse {
   flex-grow: 0 !important;
@@ -50,10 +51,14 @@
   align-items: center;
   justify-content: center;
 }
+.cartstyle {
+  position: relative;
+  cursor: pointer;
+}
 .cartnum {
   position: absolute;
-  top: 1px;
-  left: 20px;
+  top: 0px;
+  right: -5px;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -72,7 +77,28 @@
   margin-bottom: 20px;
 }
 
+.navbar {
+  background: var(--main-color) !important;
+}
+.material-symbols-outlined {
+  color: #f5f5f5;
+}
+.enicon {
+  cursor: pointer;
+}
+.enword {
+  font-family: "Inter", sans-serif;
+  margin-right: 5px;
+}
+.navloading {
+  height: 150px;
+}
 /* media query for responsive*/
+@media (min-width: 992px) {
+  .navbar > .container-fluid {
+    flex-direction: row-reverse !important;
+  }
+}
 @media (max-width: 1200px) {
   .navstyle {
     font-size: 12px !important;

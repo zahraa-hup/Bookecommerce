@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function Searchinput() {
   return (
@@ -23,4 +23,4 @@ function Searchinput() {
   );
 }
 
-export default Searchinput
+export default Searchinput;
