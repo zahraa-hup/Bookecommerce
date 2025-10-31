@@ -18,5 +18,15 @@ svg {
   color: var(--txt-color);
   cursor: pointer;
 }
-
- 
+button {
+  padding: 5px;
+  border-radius: 10px !important;
+  background: #ed8823;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  background: #e98e33;
+}

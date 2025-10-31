@@ -1,11 +1,10 @@
 import React from 'react'
-import { Placeholder } from "react-bootstrap";
+import Hero from '../components/Herosection/Hero';
 function Home() {
   return (
-    <div>
-      Home
-     
-    </div>
+    <>
+      <Hero/>
+    </>
   );
 }
 

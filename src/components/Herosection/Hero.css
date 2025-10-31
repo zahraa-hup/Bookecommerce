@@ -1,0 +1,87 @@
+.bannercontainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.banner {
+  width: 100%;
+  height: 100%;
+}
+.gridcontainer {
+  overflow: auto;
+  position: absolute;
+  padding: 0 40px;
+  max-height: 90%;
+}
+.herotext {
+  line-height: 30px !important;
+  color: var(--txt-color);
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(12px);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btnreg {
+  width: 150px;
+  margin-top: 30px;
+}
+.herobooks {
+  display: flex;
+  justify-content: flex-end;
+  height: 350px;
+  position: relative;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.heroimg1 {
+  width: 45%;
+  position: absolute;
+  height: 95%;
+  z-index: 5;
+}
+.heroimg2 {
+  width: 45%;
+  position: absolute;
+  z-index: 3;
+  left: 25%;
+  height: 85%;
+}
+.heroimg3 {
+  width: 45%;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  height: 75%;
+}
+.gridcontainer .row {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+
+/*media query for responsive*/
+@media (max-width: 992px) {
+  .gridcontainer .row {
+    gap: 0;
+  }
+  .heroimg1 {
+    height: 90%;
+  }
+  .heroimg2 {
+    height: 80%;
+  }
+  .heroimg3 {
+    height: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .herobooks {
+    display: none;
+  }
+}
