@@ -52,7 +52,7 @@
   justify-content: center;
   cursor: pointer;
 }
-.searchcon:hover{
+.searchcon:hover {
   background: #ee8e2d;
 }
 .cartstyle {
@@ -94,8 +94,8 @@
   font-family: "Inter", sans-serif;
   margin-right: 5px;
 }
-.navloading {
-  height: 150px;
+.heroloading {
+  height: 500px;
 }
 /* media query for responsive*/
 @media (min-width: 992px) {

@@ -1,9 +1,19 @@
-import React from 'react'
-import Hero from '../components/Herosection/Hero';
+import React, { Suspense, lazy } from "react";
+import Placeholder from "react-bootstrap/Placeholder";
+
 function Home() {
+  const LazyHero = lazy(() => import("../components/Herosection/Hero"));
   return (
     <>
-      <Hero/>
+      <Suspense
+        fallback={
+          <Placeholder as="div" animation="glow">
+            <Placeholder xs={12} className="heroloading" />
+          </Placeholder>
+        }
+      >
+        <LazyHero />
+      </Suspense>
     </>
   );
 }

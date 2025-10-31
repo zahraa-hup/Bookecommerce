@@ -64,7 +64,9 @@
   display: flex;
   align-items: center;
 }
-
+.heroloading{
+  height: 500px;
+}
 /*media query for responsive*/
 @media (max-width: 992px) {
   .gridcontainer .row {
