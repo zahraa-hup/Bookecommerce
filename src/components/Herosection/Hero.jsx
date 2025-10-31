@@ -6,7 +6,7 @@ function Hero() {
       <img src="/img/mybanner2.jpg" alt="banner" className="banner" />
       <div className="gridcontainer ">
         <div className="row">
-          <div className="col-lg-5 col-md-6 herobooks">
+          <div className="col-md-5  herobooks">
             <img src="/img/book item2.png" alt="book" className=" heroimg3" />
             <img src="/img/book item1.png" alt="book" className=" heroimg2" />
             <img src="/img/book item2.png" alt="book" className=" heroimg1" />
