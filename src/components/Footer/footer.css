@@ -1,0 +1,101 @@
+.footerconiner {
+  background: var(--main-color);
+  overflow: hidden;
+  font-size: 12px;
+  padding: 20px 50px;
+  color: white;
+}
+.inplabel {
+  cursor: pointer;
+}
+.licolsm h6 {
+  font-size: 16px;
+  margin-bottom: 30px;
+  position: relative;
+  width: fit-content;
+}
+.licolsm h6::after {
+  position: absolute;
+  content: "";
+  width:50px;
+  height: 5px;
+  right:-9px;
+  bottom: -15px;
+  background-image: url("/public/img/smallicon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.footericons {
+  font-size: 10px;
+  color: var(--primary-color) !important;
+  margin-left: 5px;
+}
+.licolsm {
+  margin-bottom: 10px;
+}
+
+.fsearchcon {
+  margin-top: 10px;
+  position: relative;
+}
+.fsearchinp {
+  height: 100%;
+  width: 100%;
+  padding: 10px 0px;
+  padding-left: 10px;
+  padding-right: 30px;
+  background: #5b6872;
+  color: white;
+}
+.fbtn {
+  position: absolute;
+  width: 70px;
+  top: 5.5px;
+  left: 5px;
+}
+.fsearchicon {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  color: var(--primary-color);
+}
+.fsearchinp::placeholder {
+  color: white;
+  opacity: 1;
+}
+.footericons1 {
+  width: 12px;
+  height: 12px;
+  color: var(--primary-color);
+  margin-left: 5px;
+}
+.footersearchcont{
+  position: relative;
+  margin-top: 40px;
+}
+.fhrstyle{
+  width: 100%;
+  height: 2px;
+  background: white;
+  position: relative;
+  top: 30px;
+}
+/*responsive*/
+@media (max-width: 575px) {
+  .footerconiner {
+    font-size: 10px;
+  }
+  .footerconiner {
+    padding-bottom: 100px;
+  }
+  .footerconiner h6 {
+    font-size: 14px;
+  }
+  .footersearchcont {
+    top: 550px;
+  }
+  .fhrstyle{
+    top: 100px;
+
+  }
+}

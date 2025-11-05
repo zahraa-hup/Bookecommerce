@@ -7,7 +7,7 @@ import Memos from "./pages/Memos";
 import Newbooks from "./pages/Newbooks";
 import Reviews from "./pages/Reviews";
 import Placeholder from "react-bootstrap/Placeholder";
-
+import Footer from "./components/Footer/Footer";
 function App() {
   const LazyHeader = lazy(() => import("./components/Navs/Header"));
   return (
@@ -29,6 +29,7 @@ function App() {
         <Route path="/newbooks" element={<Newbooks />} />
         <Route path="/reviews" element={<Reviews />} />
       </Routes>
+      <Footer />
     </>
   );
 }

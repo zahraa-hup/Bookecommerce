@@ -18,13 +18,12 @@
 .herotext {
   line-height: 30px !important;
   color: var(--txt-color);
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(12px);
   padding: 10px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-weight: bold;
 }
 .btnreg {
   width: 150px;

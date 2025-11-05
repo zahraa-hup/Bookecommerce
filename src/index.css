@@ -9,6 +9,12 @@
   border: none !important;
   text-decoration: none !important;
 }
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
 :root {
   --main-color: #3d464d;
   --primary-color: #e99239;
@@ -19,7 +25,7 @@ svg {
   cursor: pointer;
 }
 button {
-  padding: 5px;
+  padding: 7px 5px;
   border-radius: 10px !important;
   background: #ed8823;
   color: white;
