@@ -52,8 +52,8 @@
     
 }
 /* responsive*/
-@media (max-width: 557px) {
- .hero1container .row{
+@media (max-width: 575px) {
+.hero1row{
     flex-direction: column-reverse !important;
   }
 }

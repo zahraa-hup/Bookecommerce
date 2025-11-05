@@ -3,16 +3,24 @@ import FUl1 from "./FUl1";
 import FUl2 from "./FUl2";
 import Fcontact from "./Fcontact";
 import FCol1 from "./FCol1";
+import Ficons from "./Ficons";
 import "./footer.css";
+
 function Footer() {
   return (
     <div className="footerconiner">
-      <div className="row">
-        <FCol1/>
+      <div className="row frowaftercon">
+        <FCol1 />
         <FUl1 />
         <FUl2 />
         <Fcontact />
-        <hr className="fhrstyle" />
+      </div>
+      <hr className="fhrstyle" />
+      <div className="row rowsec2">
+        <Ficons />
+      </div>
+      <div className="row">
+        <img src="./img/Frame 28.png" alt="" className="fimgposition"/>
       </div>
     </div>
   );
