@@ -2,7 +2,7 @@ import React from 'react'
 
 function FCol1() {
   return (
-    <div className="col-sm-3">
+    <div className=" col-xl-3 col-md-6 col-12">
       <h5>Logo</h5>
       <p>انضم الينا واستكشف كنوز من الطبيعه خلال كتبنا من الطبيعه</p>
       <div className="footersearchcont">

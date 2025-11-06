@@ -19,8 +19,11 @@ function Footer() {
       <div className="row rowsec2">
         <Ficons />
       </div>
-      <div className="row">
-        <img src="./img/Frame 28.png" alt="" className="fimgposition"/>
+      <div className="row ftextimgrow">
+        <img src="./img/Frame 28.png" alt="" className="fimgposition" />
+        <div className="ftextimg">
+          جميع الحقوق محفوظه 2024 &nbsp; &nbsp; &copy;
+        </div>
       </div>
     </div>
   );

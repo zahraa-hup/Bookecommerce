@@ -2,7 +2,7 @@ import React from "react";
 
 function FUl2() {
   return (
-    <ul className="col-sm-3 ">
+    <ul className="col-xl-3 col-md-6 col-12">
       <li className="licolsm">
         <h6>سياسه الموقع</h6>
       </li>
